@@ -35,6 +35,10 @@ li a {
 	text-decoration: none;
 }
 
+p {
+	color: DimGray;
+}
+
 .flex-container {
 	list-style: none;
 	display: flex;
