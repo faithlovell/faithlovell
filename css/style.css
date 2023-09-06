@@ -71,11 +71,7 @@ p {
 
 .middle {
 	order: 2;
-}
-
-.middle_aboutMe {
 	text-align: center;
-	color: #ff6666;
 }
 
 .right {
