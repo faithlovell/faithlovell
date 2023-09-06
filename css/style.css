@@ -7,6 +7,11 @@ div {
 	text-align: center;
 }
 
+.left {
+	text-align: left;
+	
+}
+
 nav {
 	background-color: #E0E0E0;
 	position: fixed;
@@ -35,8 +40,22 @@ li a {
 	text-decoration: none;
 }
 
+ul.interests{
+	list-style: disclosure-closed;
+	background-color: #F0F0F0;
+}
+
+.interests li{
+	display: list-item;
+	color: MidnightBlue;
+}
+
 p {
 	color: DimGray;
+}
+
+.p-aboutMe {
+	color: Black;
 }
 
 .flex-container {
@@ -52,6 +71,11 @@ p {
 
 .middle {
 	order: 2;
+}
+
+.middle_aboutMe {
+	text-align: center;
+	color: #ff6666;
 }
 
 .right {
