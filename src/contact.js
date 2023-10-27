@@ -51,6 +51,7 @@ window.onload = function() {
         if (errorMessage !== "") {
             errorElement.innerHTML = errorMessage;
         } else {
+            errorElement.innerHTML = "Successfully sent!"
             emailjs.sendForm('contact_service', 'contact_form', this)
         }
     });

@@ -16,3 +16,45 @@ body{
     border-radius: 15px; 
     object-fit: cover; 
   }
+  
+  .fa-github{
+    color: white;
+    background: black;
+    border-radius: 25px;
+  }
+  
+  .fa-envelope{
+    color: white;
+    background: black;
+    border-radius: 25px;
+  }
+
+  .fa-linkedin{
+    color: white;
+    background: black;
+    border-radius: 25px;
+  }
+
+  .dropdown {
+    float: left;
+    overflow: hidden;
+  }
+
+  .dropdown-links {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+
+  .dropdown:hover .dropdown-links {
+    display: block;
+  }
+
+  .form-container{
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
