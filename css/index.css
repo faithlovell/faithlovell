@@ -18,6 +18,18 @@ ul {
     list-style-type: none;
 }
 
+a:link{
+    color: #004E72;
+}
+
+a:active{
+    color: #527C96;
+}
+
+a:visited{
+    color: #006BAC;
+}
+
 .headshot-img{
     display: flex;
     justify-content: center;
