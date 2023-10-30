@@ -1,33 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-		<link rel="stylesheet" href="css/styles.css">
-		<title> Faith Lovell Personal Site </title>
-	</head>
-	<!--Home Page-->
-	<body style="background-color:#F0F0F0">
-		<!-- Navigation Bar -->
-		<nav class="navbar navbar-expand-lg navbar-light" style="background-color: #E0E0E0; border-bottom: 1px solid #ff666659">
-			<div class="navbar-detail">
-				<a href="https://khammen.github.io/" class="nav-button">Previous Student</a>
-				<!--Groups middle buttons together to look better visually-->
-				<div class="navbar-middle">
-					<a href="https://faithlovell.github.io" class="nav-button">Home</a>
-					<a href="https://faithlovell.github.io/aboutMe.html" class="nav-button">About Me!</a>
-					<a href="https://mattm401.github.io/" class="nav-button">CISC474 Site</a>
-					<a href="https://faithlovell.github.io/contact.html" class="nav-button">Contact Form</a>
-				</div>
-				<a href="https://shay97279.github.io/" class="nav-button">Next Student</a>
-			</div>
-		</nav>
-		<div>
-			<h1> <!-- Faith Lovell, CISC474-010, Personal Web Page 1, faithlov@udel.edu -->
-			Faith Lovell
-			</h1>
-			<img src= "images/me.jpeg" alt="Faith Picture" width="276" height="309">
-			<p> Hi, I'm Faith  :^)</p>
-			<p><em>This is a personal website project for CISC474: Advanced Web Technologies</em></p>
-		</div>
-	</body>
+    <head>
+        <title>Personal Site Home Page</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">  <!-- for icon menu -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link rel="stylesheet" href="css/index.css">
+        <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+        <!-- Google tag (gtag.js) -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-QMHLSTT8B6"></script>
+        <script src="src/analytics.js"></script>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    </head>
+    <body>
+        <div class="navbar">
+            <a href="https://faithlovell.github.io">Home</a>
+            <a href="https://faithlovell.github.io/contact.html">Contact</a>
+            <a href="https://faithlovell.github.io/projects.html">Projects</a>
+            <a href="https://faithlovell.github.io/resume.html">Resume</a>
+            <div class="dropdown show">
+                <a class="btn dropdown-toggle transparent-button" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Class Links
+                </a>
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                  <a class="dropdown-item" href="https://khammen.github.io/">Previous Student</a>
+                  <a class="dropdown-item" href="https://mattm401.github.io/">Class Page</a>
+                  <a class="dropdown-item" href="https://shay97279.github.io/">Next Student</a>
+                </div>
+            </div>
+        </div>
+        <div class="headshot-img">
+            <img class="rounded-square" src="images/me.jpeg" alt="Faith's headshot">
+        </div>
+        <div class="intro">
+            <h1>Faith Lovell</h1>
+            <p><i>aspiring software engineer with interest in web development and interactive media</i></p>
+                <ul>
+                    <li>University of Delaware, Class of 2024</li>
+                    <li>Computer Science Major, Interactive Media Minor</li>
+                    <li>TypeScript, JavaScript, Python, HTML, CSS, Angular, React, Java</li>
+                    <li>I organize events and teach classes sometimes, too!</li>
+                </ul>
+        </div>
+        <div class="row-links">
+            <ul class="horizontal-list">
+                <li><a href="https://faithlovell.github.io/projects.html">Check out some of my work</a></li>
+                <li>|</li>
+                <li><a href="https://faithlovell.github.io/resume.html">View my resume</a></li>
+            </ul>
+        </div>
+        <div class="footer">
+            <ul class="horizontal-list">
+                <li><a href="mailto: faithlov@udel.edu" class="fa fa-envelope fa-lg"></a></li>
+                <li><a href="https://github.com/faithlovell/" class="fa fa-github fa-lg"></a></li>
+                <li><a href="https://www.linkedin.com/in/faithlovell" class="fa fa-linkedin fa-lg"></a></li>
+            </ul>
+        </div>   
+    </body>
 </html>

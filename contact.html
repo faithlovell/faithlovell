@@ -14,48 +14,66 @@
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
     </head>
     <body>
-        <!--Nav Bar-->
-        <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #E0E0E0; border-bottom: 1px solid #ff666659">
-			<div class="navbar-detail">
-				<a href="https://khammen.github.io/" class="nav-button">Previous Student</a>
-				<div class="navbar-middle">
-					<a href="https://faithlovell.github.io" class="nav-button">Home</a>
-					<a href="https://faithlovell.github.io/aboutMe.html" class="nav-button">About Me!</a>
-					<a href="https://mattm401.github.io/" class="nav-button">CISC474 Site</a>
-					<a href="https://faithlovell.github.io/contact.html" class="nav-button">Contact Form</a>
-				</div>
-				<a href="https://shay97279.github.io/" class="nav-button">Next Student</a>
-			</div>
-		</nav>
-        <!--Contact Form-->
-        <div class="container mt-5">
-            <h2>Contact Me</h2>
-            <form id="contact-form">
-                <div class="form-group">
-                    <label for="user_lname">Last Name:</label>
-                    <input type="text" class="form-control" id="user_lname" name="user_lname">
+        <div class="navbar">
+            <a href="https://faithlovell.github.io">Home</a>
+            <a href="https://faithlovell.github.io/contact.html">Contact</a>
+            <a href="https://faithlovell.github.io/projects.html">Projects</a>
+            <a href="https://faithlovell.github.io/resume.html">Resume</a>
+            <div class="dropdown show">
+                <a class="btn dropdown-toggle transparent-button" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Class Links
+                </a>
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                  <a class="dropdown-item" href="https://khammen.github.io/">Previous Student</a>
+                  <a class="dropdown-item" href="https://mattm401.github.io/">Class Page</a>
+                  <a class="dropdown-item" href="https://shay97279.github.io/">Next Student</a>
                 </div>
-                <div class="form-group">
-                    <label for="user_fname">First Name:</label>
-                    <input type="text" class="form-control" id="user_fname" name="user_fname">
-                </div>
-                <div class="form-group">
-                    <label for="user_email">Email Address:</label>
-                    <input type="email" class="form-control" id="user_email" name="user_email">
-                </div>
-                <div class="form-group">
-                    <!--Checks phone pattern, from W3 schools-->
-                    <label for="user_phone">Phone Number:</label>
-                    <input type="tel" class="form-control" id="user_phone" name="user_phone">
-                    <small class="form-text text-muted">Format: 123-456-7890</small>
-                </div>
-                <div class="form-group">
-                    <label for="user_message">Message:</label>
-                    <textarea class="form-control" id="user_message" name="user_message" rows="4"></textarea>
-                </div>
-                <button type="submit" class="nav-button">Submit</button>
-            </form>
+            </div>
+        </div>
+        <div class="intro">
+            <h1>Contact Me!</h1>
+            <p><i>Feel free to reach out to me at any time! I am always happy to chat about my work, or answer any questions you may have.</i><br>
+            <a href="mailto: faithlov@udel.edu">faithlov@udel.edu</a><br>
+            <a href="https://www.linkedin.com/in/faithlovell">LinkedIn</a><br>
+            Or, fill out the form below and I will get back to you!
+        </p>
+        </div>
+        <div class="col d-flex align-items-center">
+            <div class="form-container">
+                <form id="contact-form">
+                    <div class="form-group">
+                        <label for="user_lname">Last Name:</label>
+                        <input type="text" class="form-control" id="user_lname" name="user_lname">
+                    </div>
+                    <div class="form-group">
+                        <label for="user_fname">First Name:</label>
+                        <input type="text" class="form-control" id="user_fname" name="user_fname">
+                    </div>
+                    <div class="form-group">
+                        <label for="user_email">Email Address:</label>
+                        <input type="email" class="form-control" id="user_email" name="user_email">
+                    </div>
+                    <div class="form-group">
+                        <!--Checks phone pattern, from W3 schools-->
+                        <label for="user_phone">Phone Number:</label>
+                        <input type="tel" class="form-control" id="user_phone" name="user_phone">
+                        <small class="form-text text-muted">Format: 123-456-7890</small>
+                    </div>
+                    <div class="form-group">
+                        <label for="user_message">Message:</label>
+                        <textarea class="form-control" id="user_message" name="user_message" rows="4"></textarea>
+                    </div>
+                    <button type="submit" class="form-button">Submit</button>
+                </form>
+            </div>
         </div>
         <div id="error"></div>
+        <div class="footer">
+            <ul class="horizontal-list">
+                <li><a href="mailto: faithlov@udel.edu" class="fa fa-envelope fa-lg"></a></li>
+                <li><a href="https://github.com/faithlovell/" class="fa fa-github fa-lg"></a></li>
+                <li><a href="https://www.linkedin.com/in/faithlovell" class="fa fa-linkedin fa-lg"></a></li>
+            </ul>
+        </div>   
     </body>
 </html>
